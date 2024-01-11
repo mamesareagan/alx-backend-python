@@ -1,20 +1,18 @@
-   <title>Annotate Python Library</title>
-    <h1>Annotate</h1>
+# Annotate
 
-    <p>Annotate is a Python library that facilitates adding type annotations to your code and runtime checking.</p>
+Annotate is a Python library that allows you to add type annotations to your code and check them at runtime.
 
-    <h2>Why Annotate?</h2>
+## Why Annotate?
 
-    <p>Type annotations in Python enhance code readability and maintainability, but default Python behavior doesn't enforce them, leading to potential runtime type errors. Annotate addresses this by offering a simple and elegant solution to check type annotations and raise informative exceptions when violated.</p>
+Type annotations are a useful feature of Python that can help you write more readable, maintainable, and bug-free code. However, Python does not enforce type annotations by default, so you may still encounter type errors at runtime. Annotate solves this problem by providing a simple and elegant way to check your type annotations and raise informative exceptions if they are violated.
 
-    <h2>Requirements</h2>
+## Requirements
 
-    <p>Annotate requires Python 3.6 or higher and utilizes the `typing` module from the standard library.</p>
+Annotate requires Python 3.6 or higher and the `typing` module from the standard library.
 
-    <h2>Installation</h2>
+## Installation
 
-    <p>Install Annotate using pip:</p>
+You can install Annotate using pip:
 
-    <pre><code>pip install annotate</code></pre>
-
-
+```bash
+pip install annotate
