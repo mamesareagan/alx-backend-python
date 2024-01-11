@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
 """sumation of floats"""
+from typing import List
 
 
-def sum_list(input_list: list[float]) -> float:
+def sum_list(input_list: List[float]) -> float:
     """gets the sum of floats in a list
 
     Args:
@@ -11,4 +12,8 @@ def sum_list(input_list: list[float]) -> float:
     Returns:
         float: sum
     """
-    return sum(input_list)
+    if input_list is None:
+        return 0
+    else:
+         return sum(input_list)
+    
