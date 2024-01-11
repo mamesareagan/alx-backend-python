@@ -1,11 +1,4 @@
-<html>
-
-<head>
-    <title>Annotate Python Library</title>
-</head>
-
-<body>
-
+   <title>Annotate Python Library</title>
     <h1>Annotate</h1>
 
     <p>Annotate is a Python library that facilitates adding type annotations to your code and runtime checking.</p>
@@ -24,7 +17,4 @@
 
     <pre><code>pip install annotate</code></pre>
 
-</body>
-
-</html>
 
