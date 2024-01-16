@@ -1,0 +1,7 @@
+{
+    "python.testing.pytestArgs": [
+        "0x00-python_variable_annotations"
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true
+}
